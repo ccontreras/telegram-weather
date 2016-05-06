@@ -1,0 +1,32 @@
+{
+  "name": "telegram",
+  "description": "Simple telegram client test.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Cesar Contreras",
+    "email": "ccdl15c@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Luis Contreras",
+      "email": "one.tmac@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ccontreras/telegram-weather.git"
+  },
+  "keywords": [
+    "telegram",
+    "weather",
+    "bot"
+  ],
+  "scripts": {
+    "start": "node index"
+  },
+  "main": "index",
+  "dependencies": {
+    "lodash": "^4.11.2",
+    "telegram-node-bot": "github:naltox/telegram-node-bot"
+  }
+}
